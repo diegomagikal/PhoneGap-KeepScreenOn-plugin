@@ -1,0 +1,21 @@
+ 
+{
+  "name": "phoneGap-keepScreen-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "www/keepscreenon.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vertazzar/PhoneGap-KeepScreenOn-plugin"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vertazzar/PhoneGap-KeepScreenOn-plugin/issues"
+  },
+  "homepage": "https://github.com/vertazzar/PhoneGap-KeepScreenOn-plugin#readme",
+  "ecosystem": "cordova"
+}
