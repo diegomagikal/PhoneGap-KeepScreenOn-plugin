@@ -13,11 +13,11 @@ Android, iOS, Amazon FireOS
 
 For Cordova:
 
-	cordova plugin add git://github.com/zoxxx/PhoneGap-KeepScreenOn-plugin.git
+	cordova plugin add git://github.com/diegomagikal/PhoneGap-KeepScreenOn-plugin.git
 
 For PhoneGap
 
-	phonegap local plugin add git://github.com/zoxxx/PhoneGap-KeepScreenOn-plugin.git
+	phonegap local plugin add git://github.com/diegomagikal/PhoneGap-KeepScreenOn-plugin.git
 	
 #### Using the plugin
 
