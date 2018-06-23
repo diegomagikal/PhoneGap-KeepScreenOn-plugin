@@ -33,4 +33,17 @@ keepScreenOn.prototype.toggle = function () {
 	}
 };
 
-module.exports = new keepScreenOn();
+
+keepScreenOn.install = function () {
+  if (!window.plugins) {
+    window.plugins = {};
+  }
+
+  window.plugins.keepScreenOn = new keepScreenOn();
+  return window.plugins.keepScreenOn;
+};
+
+cordova.addConstructor(keepScreenOn.install);
+
+
+//module.exports = new keepScreenOn();
